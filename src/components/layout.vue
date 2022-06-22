@@ -1,8 +1,7 @@
 <template>
     <el-container style="border: 1px solid #eee;height:100vh">
-        <el-header style="height:12%">
-            <span><img src="../assets/canary_logo.svg" alt="" style="width:200px;position:absolute;left:2%"></span>
-            <span style="font-size:large;color:gold">canary软件测试平台</span>
+        <el-header style="height:8%">
+            <span style="font-size:large;color:gold;position:absolute;left:45%">软件测试平时作业</span>
         </el-header>
         <el-container style="height:88%">
             <el-aside width="200px">
@@ -11,19 +10,14 @@
                          active-text-color="#ffd04b"
                          router=true>
                     <el-submenu index="1">
-                        <template #title><i class="el-icon-message"></i><span style="color:gold">平时题目</span></template>
-
+                        <template #title><i class="el-icon-message"></i><span style="color:gold">平时作业题目汇总</span></template>
                         <el-menu-item index="/triangle">三角形问题</el-menu-item>
                         <el-menu-item index="/telecom">电信收费问题</el-menu-item>
                         <el-menu-item index="/computer">电脑销售系统</el-menu-item>
                         <el-menu-item index="/calendar">万年历问题</el-menu-item>
-
-                    </el-submenu>
-                    <el-submenu index="2">
-                        <template #title><i class="el-icon-menu"></i><span style="color:gold">期末项目</span></template>
-                        <el-menu-item index="/unitTest">单元测试</el-menu-item>
-                        <el-menu-item index="2.2">集成测试</el-menu-item>
-                        <el-menu-item index="2.3">系统测试</el-menu-item>
+                        <el-menu-item index="/calendar">ATM系统</el-menu-item>
+                        <el-menu-item index="/calendar">销售系统</el-menu-item>
+                        <el-menu-item index="/calendar">程序图</el-menu-item>
                     </el-submenu>
                 </el-menu>
             </el-aside>

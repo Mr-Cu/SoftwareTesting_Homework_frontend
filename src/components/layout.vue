@@ -16,7 +16,7 @@
                         <el-menu-item index="/computer">电脑销售系统</el-menu-item>
                         <el-menu-item index="/calendar">万年历问题</el-menu-item>
                         <el-menu-item index="/calendar">ATM系统</el-menu-item>
-                        <el-menu-item index="/calendar">销售系统</el-menu-item>
+                        <el-menu-item index="/sales">销售系统</el-menu-item>
                         <el-menu-item index="/calendar">程序图</el-menu-item>
                     </el-submenu>
                 </el-menu>

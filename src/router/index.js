@@ -27,7 +27,11 @@ const router = createRouter({
           name: '电信收费问题',
           component: () => import('@/views/telecom.vue')
         },
-
+        {
+          path: '/sales',
+          name: '销售系统',
+          component: () => import('@/views/sales.vue')
+        },
         {
           path: '/computer',
           name: '电脑销售问题',

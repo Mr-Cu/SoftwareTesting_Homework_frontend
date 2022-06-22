@@ -1,10 +1,10 @@
 <template>
   <div style="margin-left: 50px;margin-right:50px;text-align: left;width: 100%;">
     <div style="width: 250px;">
-      <h1>Question4: 万年历问题</h1>
+      <h1>Question6: 销售系统</h1>
       <el-upload
           class="upload-demo"
-          action="http://localhost:5000/question4"
+          action="http://localhost:5000/question6"
           :on-preview="handlePreview"
           :on-remove="handleRemove"
           :before-remove="beforeRemove"
@@ -28,29 +28,37 @@
         </el-table-column>
         <el-table-column
             prop=1
-            label="年">
+            label="销售额">
         </el-table-column>
         <el-table-column
             prop=2
-            label="月">
+            label="请假天数">
         </el-table-column>
         <el-table-column
             prop=3
-            label="日">
+            label="现金到账">
         </el-table-column>
         <el-table-column
             prop=4
-            label="预期输出">
+            label="预期输出1(佣金系数)"
+            width="150">
         </el-table-column>
         <el-table-column
             prop=5
-            label="实际输出">
+            label="预期输出2(佣金值)">
         </el-table-column>
         <el-table-column
             prop=6
+            label="实际输出1">
+        </el-table-column>
+        <el-table-column
+            prop=7
+            label="实际输出2">
+        </el-table-column>
+        <el-table-column
+            prop=8
             label="是否通过">
         </el-table-column>
-
       </el-table>
     </div>
   </div>
@@ -58,7 +66,7 @@
 
 <script>
 export default {
-  name: "calendar",
+  name: "sales",
   data() {
     return {
       tableData: [],

@@ -33,6 +33,11 @@ const router = createRouter({
           component: () => import('@/views/sales.vue')
         },
         {
+          path: '/program',
+          name: '程序图',
+          component: () => import('@/views/program.vue')
+        },
+        {
           path: '/computer',
           name: '电脑销售问题',
           component: () => import('@/views/computerSell.vue')
@@ -41,7 +46,12 @@ const router = createRouter({
           path: '/calendar',
           name: '万年历问题',
           component: () => import('@/views/calendar.vue')
-        }
+        },
+        {
+          path: '/atmsystem',
+          name: '销售系统',
+          component: () => import('@/views/atmsystem.vue')
+        },
       ],
       meta: {
         index: 1

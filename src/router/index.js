@@ -47,6 +47,11 @@ const router = createRouter({
           name: '销售系统',
           component: () => import('@/views/atmsystem.vue')
         },
+        {
+          path: '/unitTest',
+          name: '非编程作业',
+          component: () => import('@/views/unitTest.vue')
+        },
       ],
       meta: {
         index: 1

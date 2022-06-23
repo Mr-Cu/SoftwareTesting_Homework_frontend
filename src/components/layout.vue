@@ -10,14 +10,19 @@
                          active-text-color="#ffd04b"
                          router=true>
                     <el-submenu index="1">
-                        <template #title><i class="el-icon-message"></i><span style="color:gold">平时作业题目汇总</span></template>
+                        <template #title><i class="el-icon-message"></i><span style="color:gold">编程作业汇总</span></template>
                         <el-menu-item index="/triangle">三角形问题</el-menu-item>
                         <el-menu-item index="/telecom">电信收费问题</el-menu-item>
                         <el-menu-item index="/computer">电脑销售系统</el-menu-item>
                         <el-menu-item index="/calendar">万年历问题</el-menu-item>
                         <el-menu-item index="/atmsystem">ATM系统</el-menu-item>
                         <el-menu-item index="/sales">销售系统</el-menu-item>
-                        <!-- <el-menu-item index="/programdiagram">程序图</el-menu-item> -->
+                    </el-submenu>
+                    <el-submenu index="2">
+                        <template #title><i class="el-icon-menu"></i><span style="color:gold">非编程作业</span></template>
+                        <el-menu-item index="/unitTest">单元测试</el-menu-item>
+                        <!-- <el-menu-item index="2.2">集成测试</el-menu-item>
+                        <el-menu-item index="2.3">系统测试</el-menu-item> -->
                     </el-submenu>
                 </el-menu>
             </el-aside>

@@ -1,7 +1,10 @@
 <template>
     <el-container style="border: 1px solid #eee;height:100vh">
         <el-header style="height:8%">
-            <span style="font-size:large;color:gold;position:absolute;left:45%">软件测试平时作业</span>
+                        <el-container style="padding-left:0px">
+                <span style="font-size:20px;color:white">软件测试平时作业</span>
+            </el-container>
+            <!-- <span style="font-size:large;color:gold;position:absolute;left:45%">软件测试平时作业</span> -->
         </el-header>
         <el-container style="height:88%">
             <el-aside width="200px">
@@ -20,9 +23,7 @@
                     </el-submenu>
                     <el-submenu index="2">
                         <template #title><i class="el-icon-menu"></i><span style="color:gold">非编程作业</span></template>
-                        <el-menu-item index="/unitTest">单元测试</el-menu-item>
-                        <!-- <el-menu-item index="2.2">集成测试</el-menu-item>
-                        <el-menu-item index="2.3">系统测试</el-menu-item> -->
+                        <el-menu-item index="/unitTest">程序图</el-menu-item>
                     </el-submenu>
                 </el-menu>
             </el-aside>
@@ -44,12 +45,14 @@
 </template>
 
 <style>
-    .el-header {
-        background-color: #034069;
+   .el-header {
+        background-color: #e45afc;
+        background-color: #2e0054;
         color: rgb(244, 252, 245);
         line-height: 60px;
-        text-align: right;
+        text-align: left;
         font-size: 12px;
+        
     }
 
     .header-breadcrumb {
@@ -71,7 +74,7 @@
     }
 
     .el-aside .el-menu .el-submenu {
-        background-color: rgb(39, 105, 160);
+        background-color: rgb(110, 0, 160);
         color: white;
     }
 

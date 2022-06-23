@@ -1,5 +1,5 @@
 <template>
-  <p1>软件测试平时作业</p1>
+  <p1>软件测试平台</p1>
 </template>
 
 <style>
@@ -11,7 +11,7 @@
     export default {
         name: 'home',
         data() {
-            
+
         }
     };
 </script>

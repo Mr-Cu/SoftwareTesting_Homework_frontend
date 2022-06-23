@@ -29,13 +29,8 @@ const router = createRouter({
         },
         {
           path: '/sales',
-          name: '销售系统',
-          component: () => import('@/views/sales.vue')
-        },
-        {
-          path: '/program',
           name: '程序图',
-          component: () => import('@/views/program.vue')
+          component: () => import('@/views/sales.vue')
         },
         {
           path: '/computer',
